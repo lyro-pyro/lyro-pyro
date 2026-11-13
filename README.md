@@ -1,14 +1,14 @@
 <div align="center">
 
   <!-- ══ EXTRAVAGANT WAVY LIQUID GRADIENT HEADER (SOLAR ECLIPSE TYPOGRAPHY & HALFTONE WAVES) ══ -->
-  <img src="./assets/header.svg" width="100%" alt="Avula Subhang — Creative Engineer &amp; Researcher" />
+  <img src="https://raw.githubusercontent.com/lyro-pyro/lyro-pyro/main/assets/header.svg?v=2" width="100%" alt="Avula Subhang — Creative Engineer &amp; Researcher" />
 
 </div>
 
 <br/>
 
 <!-- ══ ABOUT ME: DISTINCT COMPACT HUD CARD ══ -->
-<img src="./assets/title-about.svg" width="340" alt="About Me" />
+<img src="https://raw.githubusercontent.com/lyro-pyro/lyro-pyro/main/assets/title-about.svg?v=2" width="340" alt="About Me" />
 
 <table width="100%" style="border-collapse: separate; border-spacing: 0; margin-top: 10px; margin-bottom: 24px;">
   <tr>
@@ -24,12 +24,12 @@
 </table>
 
 <!-- Wavy Animated Divider -->
-<img src="./assets/wave-divider.svg" width="100%" alt="Wave Divider" />
+<img src="https://raw.githubusercontent.com/lyro-pyro/lyro-pyro/main/assets/wave-divider.svg?v=2" width="100%" alt="Wave Divider" />
 
 <br/>
 
 <!-- ══ TECH STACK: SYMMETRIC CENTERING & LOGO-ONLY ══ -->
-<img src="./assets/title-stack.svg" width="340" alt="Tech Stack" />
+<img src="https://raw.githubusercontent.com/lyro-pyro/lyro-pyro/main/assets/title-stack.svg?v=2" width="340" alt="Tech Stack" />
 
 <p align="center" style="margin-top: 16px; margin-bottom: 24px;">
   <img src="https://skillicons.dev/icons?i=python,solidity,ts,js,cpp,c,html,css&theme=dark" alt="Languages" />
@@ -38,12 +38,12 @@
 </p>
 
 <!-- Wavy Animated Divider -->
-<img src="./assets/wave-divider.svg" width="100%" alt="Wave Divider" />
+<img src="https://raw.githubusercontent.com/lyro-pyro/lyro-pyro/main/assets/wave-divider.svg?v=2" width="100%" alt="Wave Divider" />
 
 <br/>
 
 <!-- ══ FEATURED PROJECTS: SPACED AESTHETIC GRID ══ -->
-<img src="./assets/title-projects.svg" width="440" alt="Featured Projects" />
+<img src="https://raw.githubusercontent.com/lyro-pyro/lyro-pyro/main/assets/title-projects.svg?v=2" width="440" alt="Featured Projects" />
 
 <table width="100%" style="border-collapse: separate; border-spacing: 18px 18px; border: none; margin-top: 10px; margin-bottom: 24px;">
   <tr>
@@ -133,12 +133,12 @@
 </table>
 
 <!-- Wavy Animated Divider -->
-<img src="./assets/wave-divider.svg" width="100%" alt="Wave Divider" />
+<img src="https://raw.githubusercontent.com/lyro-pyro/lyro-pyro/main/assets/wave-divider.svg?v=2" width="100%" alt="Wave Divider" />
 
 <br/>
 
 <!-- ══ LIVE ACTIVITY & AUTO-UPDATING METRICS ══ -->
-<img src="./assets/title-metrics.svg" width="460" alt="Activity and Live Metrics" />
+<img src="https://raw.githubusercontent.com/lyro-pyro/lyro-pyro/main/assets/title-metrics.svg?v=2" width="460" alt="Activity and Live Metrics" />
 
 <p align="center" style="margin-top: 16px;">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lyro-pyro&show_icons=true&include_all_commits=true&count_private=true&theme=dark&bg_color=02182B&title_color=68C5DB&icon_color=0197F6&text_color=E0E6ED&border_color=448FA3&cache_seconds=1800" height="165" alt="GitHub Stats" />
