@@ -1,0 +1,141 @@
+<svg width="100%" height="240" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02182B"/>
+      <stop offset="40%" stop-color="#062544"/>
+      <stop offset="75%" stop-color="#0d3b66"/>
+      <stop offset="100%" stop-color="#02182B"/>
+    </linearGradient>
+
+    <!-- Wave Gradients -->
+    <linearGradient id="wave-grad-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0197F6" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#448FA3" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#D7263D" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="wave-grad-2" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#68C5DB" stop-opacity="0.3"/>
+      <stop offset="60%" stop-color="#0197F6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#02182B" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <linearGradient id="wave-grad-3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#02182B" stop-opacity="0.7"/>
+      <stop offset="45%" stop-color="#448FA3" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#D7263D" stop-opacity="0.45"/>
+    </linearGradient>
+
+    <!-- SOLAR ECLIPSE Split Text Gradient -->
+    <linearGradient id="solar-text-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="48%" stop-color="#E2F1F8"/>
+      <stop offset="52%" stop-color="#68C5DB"/>
+      <stop offset="80%" stop-color="#0197F6"/>
+      <stop offset="100%" stop-color="#D7263D"/>
+    </linearGradient>
+
+    <!-- Halftone Texture Pattern -->
+    <pattern id="halftone-pattern" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="6" r="1.4" fill="#68C5DB" fill-opacity="0.16"/>
+    </pattern>
+
+    <style>
+      @keyframes wave-1 {
+        0% { transform: translateX(0); }
+        50% { transform: translateX(-240px); }
+        100% { transform: translateX(0); }
+      }
+      @keyframes wave-2 {
+        0% { transform: translateX(0); }
+        50% { transform: translateX(200px); }
+        100% { transform: translateX(0); }
+      }
+      @keyframes wave-3 {
+        0% { transform: translateX(0); }
+        50% { transform: translateX(-160px); }
+        100% { transform: translateX(0); }
+      }
+      @keyframes star-twinkle {
+        0%, 100% { opacity: 0.3; transform: scale(0.85); }
+        50% { opacity: 1; transform: scale(1.25); }
+      }
+      @keyframes beam-glide {
+        0% { opacity: 0.12; transform: translateY(0); }
+        50% { opacity: 0.32; transform: translateY(-12px); }
+        100% { opacity: 0.12; transform: translateY(0); }
+      }
+      .anim-wave-1 { animation: wave-1 12s ease-in-out infinite; }
+      .anim-wave-2 { animation: wave-2 9s ease-in-out infinite; }
+      .anim-wave-3 { animation: wave-3 15s ease-in-out infinite; }
+      .anim-star-1 { animation: star-twinkle 2.8s ease-in-out infinite; transform-origin: 180px 75px; }
+      .anim-star-2 { animation: star-twinkle 3.4s ease-in-out infinite 0.9s; transform-origin: 1020px 85px; }
+      .anim-star-3 { animation: star-twinkle 2.2s ease-in-out infinite 1.5s; transform-origin: 320px 180px; }
+      .anim-beam { animation: beam-glide 6s ease-in-out infinite; }
+      .title-text {
+        font-family: 'Syne', 'Montserrat', 'Arial Black', Impact, sans-serif;
+        font-weight: 900;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Rectangle -->
+  <rect width="1200" height="240" rx="16" fill="url(#bg-grad)"/>
+
+  <!-- Halftone Dither Texture Overlay -->
+  <rect width="1200" height="240" rx="16" fill="url(#halftone-pattern)"/>
+
+  <!-- Ethereal Light Rays / Beams -->
+  <g class="anim-beam">
+    <path d="M-100 -50 L450 280 L350 280 L-150 -50 Z" fill="#68C5DB" fill-opacity="0.06"/>
+    <path d="M300 -50 L850 280 L750 280 L250 -50 Z" fill="#0197F6" fill-opacity="0.05"/>
+    <path d="M700 -50 L1250 280 L1150 280 L650 -50 Z" fill="#D7263D" fill-opacity="0.04"/>
+  </g>
+
+  <!-- Extravagant Layered Animated Wavy Curves -->
+  <!-- Wave 1 (Deep) -->
+  <g class="anim-wave-1">
+    <path d="M-300 130 C-100 190, 100 90, 300 140 C500 190, 700 80, 900 135 C1100 190, 1300 85, 1500 140 L1500 240 L-300 240 Z" fill="url(#wave-grad-1)"/>
+  </g>
+
+  <!-- Wave 2 (Middle) -->
+  <g class="anim-wave-2">
+    <path d="M-200 150 C50 85, 250 185, 450 135 C650 85, 850 180, 1050 130 C1250 80, 1450 175, 1650 135 L1650 240 L-200 240 Z" fill="url(#wave-grad-2)"/>
+  </g>
+
+  <!-- Wave 3 (Front Crest) -->
+  <g class="anim-wave-3">
+    <path d="M-250 170 C-50 140, 150 200, 350 165 C550 130, 750 195, 950 160 C1150 125, 1350 190, 1550 165 L1550 240 L-250 240 Z" fill="url(#wave-grad-3)"/>
+  </g>
+
+  <!-- Celestial 4-Pointed Stars -->
+  <!-- Star 1 -->
+  <g class="anim-star-1">
+    <path d="M180 60 Q180 75 165 75 Q180 75 180 90 Q180 75 195 75 Q180 75 180 60 Z" fill="#68C5DB"/>
+  </g>
+
+  <!-- Star 2 -->
+  <g class="anim-star-2">
+    <path d="M1020 70 Q1020 85 1005 85 Q1020 85 1020 100 Q1020 85 1035 85 Q1020 85 1020 70 Z" fill="#0197F6"/>
+  </g>
+
+  <!-- Star 3 -->
+  <g class="anim-star-3">
+    <path d="M320 168 Q320 180 308 180 Q320 180 320 192 Q320 180 332 180 Q320 180 320 168 Z" fill="#D7263D"/>
+  </g>
+
+  <!-- Central Heavy Brutalist Typography: AVULA SUBHANG -->
+  <g filter="drop-shadow(0 4px 18px rgba(1, 151, 246, 0.45)) drop-shadow(0 2px 4px rgba(0, 0, 0, 0.9))">
+    <text x="600" y="128" text-anchor="middle" class="title-text" font-size="54" fill="url(#solar-text-grad)">
+      AVULA SUBHANG
+    </text>
+  </g>
+
+  <!-- Subtle Celestial Coordinates Label -->
+  <text x="600" y="162" text-anchor="middle" font-family="'Space Grotesk', monospace" font-size="12" letter-spacing="4" fill="#68C5DB" fill-opacity="0.8">
+    ✦ &nbsp; RESEARCH &bull; NEURAL SYSTEMS &bull; CRYPTOGRAPHY &nbsp; ✦
+  </text>
+</svg>

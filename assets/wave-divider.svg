@@ -1,0 +1,36 @@
+<svg width="100%" height="45" viewBox="0 0 1200 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="div-wave-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#02182B" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#0197F6" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#448FA3" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#02182B" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="div-wave-2" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#D7263D" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#68C5DB" stop-opacity="0.25"/>
+      <stop offset="80%" stop-color="#0197F6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#02182B" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      @keyframes div-anim-1 {
+        0% { transform: translateX(0); }
+        50% { transform: translateX(-120px); }
+        100% { transform: translateX(0); }
+      }
+      @keyframes div-anim-2 {
+        0% { transform: translateX(0); }
+        50% { transform: translateX(100px); }
+        100% { transform: translateX(0); }
+      }
+      .div-w1 { animation: div-anim-1 8s ease-in-out infinite; }
+      .div-w2 { animation: div-anim-2 6s ease-in-out infinite; }
+    </style>
+  </defs>
+  <g class="div-w1">
+    <path d="M-100 20 C100 5, 300 35, 500 20 C700 5, 900 35, 1100 20 C1300 5, 1500 35, 1700 20" stroke="url(#div-wave-1)" stroke-width="2" fill="none"/>
+  </g>
+  <g class="div-w2">
+    <path d="M-100 25 C150 40, 350 10, 550 25 C750 40, 950 10, 1150 25 C1350 40, 1550 10, 1750 25" stroke="url(#div-wave-2)" stroke-width="1.5" fill="none"/>
+  </g>
+</svg>
