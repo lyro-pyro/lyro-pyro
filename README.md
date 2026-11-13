@@ -35,31 +35,16 @@
 
 ---
 
-### &nbsp;stats
-
-<br/>
-
-<img height="155" src="https://github-readme-stats.vercel.app/api?username=lyro-pyro&show_icons=true&theme=transparent&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&icon_color=58a6ff&text_color=8b949e" />
-&nbsp;&nbsp;
-<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lyro-pyro&layout=compact&theme=transparent&hide_border=true&langs_count=5&text_color=8b949e&title_color=8b949e" />
-
-<br/><br/>
-
----
-
 ### &nbsp;highlighted work
 
 <br/>
 
-[![C.O.V.E.R.T](https://github-readme-stats.vercel.app/api/pin/?username=lyro-pyro&repo=C.O.V.E.R.T&theme=transparent&hide_border=true&title_color=c9d1d9&text_color=8b949e&icon_color=58a6ff)](https://github.com/lyro-pyro/C.O.V.E.R.T)
-&nbsp;
-[![heimdall](https://github-readme-stats.vercel.app/api/pin/?username=lyro-pyro&repo=heimdall&theme=transparent&hide_border=true&title_color=c9d1d9&text_color=8b949e&icon_color=58a6ff)](https://github.com/lyro-pyro/heimdall)
-
-<br/>
-
-[![Deepfake Detection](https://github-readme-stats.vercel.app/api/pin/?username=lyro-pyro&repo=Deepfake-Detection-Tool-Using-Machine-Learning&theme=transparent&hide_border=true&title_color=c9d1d9&text_color=8b949e&icon_color=58a6ff)](https://github.com/lyro-pyro/Deepfake-Detection-Tool-Using-Machine-Learning)
-&nbsp;
-[![Brain Tumor Segmentation](https://github-readme-stats.vercel.app/api/pin/?username=lyro-pyro&repo=Brain-Tumor-Segmentation-with-U-Net&theme=transparent&hide_border=true&title_color=c9d1d9&text_color=8b949e&icon_color=58a6ff)](https://github.com/lyro-pyro/Brain-Tumor-Segmentation-with-U-Net)
+| project | stack | about |
+|---|---|---|
+| [**C.O.V.E.R.T**](https://github.com/lyro-pyro/C.O.V.E.R.T) | Solidity · React · Node | confidential on-chain evidence reporting with ZK proofs |
+| [**heimdall**](https://github.com/lyro-pyro/heimdall) | TypeScript · Python | — |
+| [**Deepfake Detection**](https://github.com/lyro-pyro/Deepfake-Detection-Tool-Using-Machine-Learning) | Python · PyTorch | ml-based deepfake detection tool |
+| [**Brain Tumor Segmentation**](https://github.com/lyro-pyro/Brain-Tumor-Segmentation-with-U-Net) | Python · PyTorch | U-Net segmentation on medical imaging |
 
 <br/>
 
@@ -68,3 +53,4 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0d1117&height=80&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
+
