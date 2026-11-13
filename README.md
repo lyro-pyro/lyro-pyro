@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=300&size=18&duration=3000&pause=1500&color=8b949e&center=true&vCenter=true&width=460&lines=hi%2C+i'm+subhang.;i+build+things+that+matter.;blockchain+%C2%B7+ml+%C2%B7+full-stack." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=300&size=18&duration=3000&pause=1500&color=8b949e&center=true&vCenter=true&width=460&lines=Hi%2C+I+am+Subhang.;Welcome+to+my+GitHub+%F0%9F%98%84" alt="Typing SVG" />
 
 <br/>
 
