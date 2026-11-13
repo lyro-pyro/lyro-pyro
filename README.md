@@ -8,10 +8,6 @@
 
 <br/>
 
-<p align="center">
-  building privacy-first tools &nbsp;·&nbsp; on-chain systems &nbsp;·&nbsp; ml tinkerer
-</p>
-
 <br/>
 
 ---
