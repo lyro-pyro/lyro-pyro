@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- ══ EXTRAVAGANT WAVY LIQUID GRADIENT HEADER (SOLAR ECLIPSE TYPOGRAPHY & HALFTONE WAVES) ══ -->
-  <img src="https://raw.githubusercontent.com/lyro-pyro/lyro-pyro/main/assets/header.svg?v=3" width="100%" alt="Avula Subhang" />
+  <img src="https://raw.githubusercontent.com/lyro-pyro/lyro-pyro/main/assets/banner.svg" width="100%" alt="Avula Subhang" />
 
 </div>
 
