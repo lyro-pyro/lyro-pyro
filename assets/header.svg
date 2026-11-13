@@ -41,12 +41,6 @@
       <circle cx="6" cy="6" r="1.4" fill="#68C5DB" fill-opacity="0.16"/>
     </pattern>
 
-    <!-- Standard SVG Glow Filter -->
-    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-
     <style>
       @keyframes wave-1 {
         0% { transform: translateX(0); }
@@ -133,17 +127,11 @@
     <path d="M320 168 Q320 180 308 180 Q320 180 320 192 Q320 180 332 180 Q320 180 320 168 Z" fill="#D7263D"/>
   </g>
 
-  <!-- Central Heavy Brutalist Typography: AVULA SUBHANG -->
-  <!-- Shadow offset for depth -->
-  <text x="602" y="130" text-anchor="middle" class="title-text" font-size="54" fill="#02182B" fill-opacity="0.8">
+  <!-- Central Heavy Brutalist Typography: AVULA SUBHANG (Clean & Centered) -->
+  <text x="602" y="137" text-anchor="middle" class="title-text" font-size="56" fill="#02182B" fill-opacity="0.8">
     AVULA SUBHANG
   </text>
-  <text x="600" y="128" text-anchor="middle" class="title-text" font-size="54" fill="url(#solar-text-grad)">
+  <text x="600" y="135" text-anchor="middle" class="title-text" font-size="56" fill="url(#solar-text-grad)">
     AVULA SUBHANG
-  </text>
-
-  <!-- Subtle Celestial Coordinates Label -->
-  <text x="600" y="162" text-anchor="middle" font-family="'Space Grotesk', monospace" font-size="12" letter-spacing="4" fill="#68C5DB" fill-opacity="0.85">
-    &#10022; &#160; RESEARCH &#8226; NEURAL SYSTEMS &#8226; CRYPTOGRAPHY &#160; &#10022;
   </text>
 </svg>
